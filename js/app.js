@@ -24,6 +24,7 @@ const questionList = document.getElementById('questionList');
 const progressBar = document.getElementById('progressBar');
 const progressText = document.getElementById('progressText');
 const submitButton = document.getElementById('submitBtn');
+const testButton = document.getElementById('testResult1Btn');
 const testHint = document.getElementById('testHint');
 
 // 屏幕切换
@@ -246,6 +247,7 @@ async function init() {
   document.getElementById('restartBtn').addEventListener('click', startTest);
   document.getElementById('toTopBtn').addEventListener('click', () => showScreen('intro'));
   submitButton.addEventListener('click', renderResult);
+  testButton.addEventListener('click', renderResult);
 }
 
 init();
