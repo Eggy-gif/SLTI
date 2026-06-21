@@ -195,6 +195,36 @@ function resolveResultChrome(result) {
   };
 }
 
+// 渲染树礼推荐列表
+function renderRecommendations(type) {
+  const container = document.getElementById('recommendList');
+  if (!type.recommendations || !type.recommendations.length) {
+    container.innerHTML = '<p>暂无推荐</p>';
+    return;
+  }
+  const pool = pageData.activityPool || {};
+  container.innerHTML = type.recommendations
+    .map((rec) => {
+      const info = pool[rec.activity] || {};
+      const name = info.name || rec.activity;
+      const img = info.image && info.image !== 'TODO'
+        ? `<img src="${info.image}" alt="${name}" class="rec-img" />`
+        : `<div class="rec-img-placeholder">TODO：后续添加活动图片</div>`;
+      const link = info.url && info.url !== 'TODO'
+        ? `<a href="${info.url}" target="_blank" rel="noopener" class="rec-link">了解更多 →</a>`
+        : `<span class="rec-link-todo">TODO：后续添加公众号链接</span>`;
+      return `
+        <div class="rec-item">
+          ${img}
+          <div class="rec-name">${name}</div>
+          <div class="rec-reason">${rec.reason}</div>
+          ${link}
+        </div>
+      `;
+    })
+    .join('');
+}
+
 // 渲染结果页
 function renderResult() {
   const result = computeResult({
@@ -219,7 +249,8 @@ function renderResult() {
   document.getElementById('resultTypeSub').textContent = chrome.sub;
   document.getElementById('resultDesc').textContent = type.desc;
   document.getElementById('posterCaption').textContent = type.intro;
-  document.getElementById('funNote').textContent = chrome.note;
+
+  renderRecommendations(type);
 
   const posterImage = document.getElementById('posterImage');
   posterImage.src = imagePath;

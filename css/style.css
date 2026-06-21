@@ -487,11 +487,73 @@ button:disabled {
 }
 
 .type-subname,
-.type-desc,
-.note-box p {
+.type-desc {
   color: var(--muted);
   line-height: 1.8;
   margin-top: 14px;
+}
+
+.rec-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.rec-item {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px;
+}
+
+.rec-img {
+  border-radius: 12px;
+  display: block;
+  height: auto;
+  margin-bottom: 10px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.rec-img-placeholder {
+  align-items: center;
+  background: var(--soft);
+  border: 2px dashed var(--line);
+  border-radius: 12px;
+  color: var(--muted);
+  display: flex;
+  font-size: 14px;
+  height: 120px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.rec-name {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.rec-reason {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.rec-link {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.rec-link-todo {
+  color: var(--muted);
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 8px;
+  opacity: 0.7;
+
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .dim-list {
