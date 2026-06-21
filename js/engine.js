@@ -3,12 +3,13 @@
    ================================ */
 
 // 原始分 → 等级（L/M/H）
+// 每维度仅 1 道题，得分 1/2/3 直接对应 L/M/H
 export function sumToLevel(score) {
-  if (score <= 3) {
+  if (score <= 1) {
     return 'L';
   }
 
-  if (score === 4) {
+  if (score === 2) {
     return 'M';
   }
 
