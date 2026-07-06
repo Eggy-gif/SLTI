@@ -1611,32 +1611,22 @@
   "activityPool": {
     "shuli_chongzou": {
       "name": "重走长征路",
-      "url": "TODO",
-      "image": "TODO"
-    },
-    "shuli_hanfushe": {
-      "name": "树礼汉服社",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/D8SB7Xh2WT8yqCpLyiKiGg",
       "image": "TODO"
     },
     "shuli_xueshenghui": {
       "name": "树礼学生会",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/tVfByyzKvwdEcRp_p_TXkw",
       "image": "TODO"
     },
     "shuli_bianlunshe": {
       "name": "树礼辩论社",
-      "url": "TODO",
-      "image": "TODO"
-    },
-    "shuli_gunwangqiu": {
-      "name": "树礼棍网球社",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/OXi_e5deGdI33BPJe7OmpQ",
       "image": "TODO"
     },
     "shuli_tuanwei": {
       "name": "树礼团委（团总支）",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/HgpK139L2dlc9AQmClbL-Q",
       "image": "TODO"
     },
     "shuli_yumaoqiudui": {
@@ -1646,82 +1636,77 @@
     },
     "shuli_xinmeiti": {
       "name": "树礼新媒体中心",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/VHRaXttqnYptZ2CwlL_FIw",
       "image": "TODO"
     },
     "shuli_kehuanxiehui": {
       "name": "树礼科幻协会",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/I7RkKahjxqbgVB-2Mo9qDg",
       "image": "TODO"
     },
     "shuli_pingpangdui": {
       "name": "树礼乒乓球队",
-      "url": "TODO",
-      "image": "TODO"
-    },
-    "shuli_shuochangshe": {
-      "name": "树礼说唱社",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/RF5FPajdAUfA6IYktMM9dA",
       "image": "TODO"
     },
     "shuli_daoshiwucan": {
       "name": "导师午餐会 / 人文下午茶",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/FyVQAmO5VaP4DMqMXUhL1Q",
       "image": "TODO"
     },
     "shuli_chengshi": {
       "name": "树礼城市文化漫游",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/zO64a-9iSJt9Kv2qQ2gYPg",
       "image": "TODO"
     },
     "shuli_zuqiudui": {
       "name": "树礼足球队",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/gXzxRbVLtylz07PqqUxAMA",
       "image": "TODO"
     },
     "shuli_shenghuoquanyi": {
       "name": "树礼生活权益委员会",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/7y8xDmFZrNjoCtBZVsqLJw",
       "image": "TODO"
     },
     "shuli_libao": {
       "name": "栗宝「家」油站",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/hQhPqKBa0TyONNClPty4uA",
       "image": "TODO"
     },
     "shuli_paiqiudui": {
       "name": "树礼排球队",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/TbU7fn29d5FROzK2yPTNug",
       "image": "TODO"
     },
     "shuli_shouyiren": {
       "name": "树礼手艺人活动",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/unLy0PzoqFwz4vp2jPZ45A",
       "image": "TODO"
     },
     "shuli_yingshi": {
       "name": "树礼影视文化漫游",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/u4LFMY2Kn676O07UtViJcg",
       "image": "TODO"
     },
     "shuli_xiaocaiyuan": {
       "name": "树礼小菜园",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/-72unMccelThMlaiOnaAhw",
       "image": "TODO"
     },
     "shuli_akabelle": {
       "name": "树礼阿卡贝拉社",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/5txjERgg23Rek2Uuvs4fqg",
       "image": "TODO"
     },
     "shuli_zhuanye": {
       "name": "树礼专业集市",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/o3q3yAZl8GtyFe0q-8gW8Q",
       "image": "TODO"
     },
     "shuli_boguan": {
       "name": "树礼博观沙龙",
-      "url": "TODO",
+      "url": "https://mp.weixin.qq.com/s/_XyDI0p3hEFYDRk4gH3fYQ",
       "image": "TODO"
     }
   }
