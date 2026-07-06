@@ -140,26 +140,44 @@ function renderQuestions() {
   updateProgress();
 }
 
-// 渲染维度评分列表
+// 渲染维度评分列表（含进度条）
 function renderDimensionList(result) {
   const dimensionList = document.getElementById('dimList');
   dimensionList.innerHTML = pageData.dimensionOrder
     .map((dimension) => {
       const level = result.levels[dimension];
+      const rawScore = result.rawScores[dimension];
+      const pct = ((rawScore - 2) / 4) * 100;
+      const barColor = level === 'H' ? '#5c4212' : level === 'M' ? '#fabe00' : '#dbd7d1';
       return `
         <div class="dim-item">
           <div class="dim-item-top">
             <div class="dim-item-name">${pageData.dimensionMeta[dimension].name}</div>
             <div class="dim-item-score">${formatText(
               pageData.chrome.result.scorePattern,
-              { level, score: result.rawScores[dimension] }
+              { level, score: rawScore }
             )}</div>
+          </div>
+          <div class="dim-bar">
+            <div class="dim-bar-fill" style="width:${pct}%;background:${barColor};"></div>
           </div>
           <p>${pageData.dimExplanations[dimension][level]}</p>
         </div>
       `;
     })
     .join('');
+}
+
+function rarityLabel(rarity) {
+  if (rarity === '常见') return '在人群中较为常见';
+  if (rarity === '稀有') return '较为罕见的人格';
+  return '中等出现频率';
+}
+
+function rarityClass(rarity) {
+  if (rarity === '常见') return 'rarity-common';
+  if (rarity === '稀有') return 'rarity-rare';
+  return 'rarity-moderate';
 }
 
 // 解析结果页 chrome 文案
@@ -225,6 +243,25 @@ function renderRecommendations(type) {
     .join('');
 }
 
+function renderNearbyTypes(ranked, currentCode) {
+  const container = document.getElementById('nearbyList');
+  const others = ranked.filter((t) => t.code !== currentCode).slice(0, 2);
+  if (!others.length) {
+    container.innerHTML = '<p class="type-desc">没有足够接近的备选结果。</p>';
+    return;
+  }
+  container.innerHTML = others
+    .map(
+      (t) => `
+      <div class="nearby-item">
+        <span class="nearby-name">${t.cn}</span>
+        <span class="nearby-sim">匹配度 ${t.similarity}%</span>
+      </div>
+    `
+    )
+    .join('');
+}
+
 // 渲染结果页
 function renderResult() {
   const result = computeResult({
@@ -250,6 +287,10 @@ function renderResult() {
   document.getElementById('resultDesc').textContent = type.desc;
   document.getElementById('posterCaption').textContent = type.intro;
 
+  const rarityBadge = document.getElementById('rarityBadge');
+  rarityBadge.textContent = rarityLabel(type.rarity);
+  rarityBadge.className = `rarity-badge ${rarityClass(type.rarity)}`;
+
   renderRecommendations(type);
 
   const posterImage = document.getElementById('posterImage');
@@ -257,6 +298,7 @@ function renderResult() {
   posterImage.alt = `${type.code} ${type.cn}`;
 
   renderDimensionList(result);
+  renderNearbyTypes(result.ranked, result.finalType.code);
   showScreen('result');
 }
 
