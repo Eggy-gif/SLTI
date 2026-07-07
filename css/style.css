@@ -44,8 +44,8 @@
     position: absolute;
     inset: 0;
     background:
-      linear-gradient(rgba(255, 248, 235, 0.18), rgba(255, 248, 235, 0.28)),
-      url("../reference/背景图.png") center center / cover no-repeat;
+      linear-gradient(rgba(255, 248, 235, 0.05), rgba(255, 255, 255, 0.08)),
+      url("../reference/背景1.jpeg") center center / cover no-repeat;
     z-index: 0;
   }
 
@@ -57,11 +57,33 @@
 
   /* 只保留“SLTI测试”框作为浮层，降低透明度 */
   #intro .hero {
-    margin: 48px auto;
+     margin: 24vh auto 0;
     max-width: 980px;
     background: rgba(255, 255, 255, 0.16);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 320px;
+  }
+  #intro .hero-title {
+    margin: 0 0 24px;
+     color: #FFA500;
+    text-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.5),
+      0 0 4px #D84A4A;
+    font-size: clamp(36px, 5vw, 64px);
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  #intro .hero-actions {
+    display: flex;
+    justify-content: center;
   }
 /* ================================
    测试页 #test
@@ -102,8 +124,8 @@ body {
     -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
     "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   background:
-    linear-gradient(rgba(255, 250, 245, 0.45), rgba(255, 250, 245, 0.45)),
-    url("../reference/背景图.png") center center / cover fixed no-repeat;
+    linear-gradient(rgba(255, 250, 245, 0), rgba(255, 250, 245, 0)),
+    url("../reference/12.jpg") center center / cover fixed no-repeat;
   font-size: 24px;
   min-height: 100vh;
 }
@@ -333,7 +355,7 @@ button:disabled {
 .btn-secondary {
   border-radius: 24px;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 27px;
   padding: 22px 30px;
 }
 
