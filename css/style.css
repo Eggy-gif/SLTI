@@ -910,7 +910,7 @@ button:disabled {
     #intro::before {
       background:
         linear-gradient(rgba(255, 248, 235, 0.05), rgba(255, 255, 255, 0.08)),
-        url("../reference/背景1.jpeg") center 120% / cover no-repeat;
+        url("../reference/背景1.jpeg") center 250px / cover no-repeat;
     }
 
     #intro .hero {
@@ -922,7 +922,7 @@ button:disabled {
 
     #intro .hero-title {
       font-size: clamp(22px, 6vw, 34px);
-      margin: 0 0 16px;
+      margin: 0 0 12px;
       white-space: normal;
     }
 
