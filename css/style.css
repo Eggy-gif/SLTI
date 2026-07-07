@@ -914,10 +914,10 @@ button:disabled {
     }
 
     #intro .hero {
-      margin: 28vh auto 0;
+      margin: 24vh auto 0;
       max-width: 88%;
-      min-height: 160px;
-      padding: 18px;
+      min-height: 130px;
+      padding: 20px;
     }
 
     #intro .hero-title {
