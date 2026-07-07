@@ -363,7 +363,8 @@
           "activity": "shuli_bianlunshe",
           "reason": "你脑子里已经跟自己辩过好几轮了，不如拉上对手玩真的。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "ATM-er": {
       "code": "人格2",
@@ -387,12 +388,13 @@
           "activity": "shuli_yumaoqiudui",
           "reason": "可以单打可以双打，你想怎么来就怎么来，没人勉强。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "Dior-s": {
       "code": "人格3",
       "cn": "栗地成佛",
-      "intro": "自顾不暇，无暇他顾",  
+      "intro": "自顾不暇，无暇他顾",
       "desc": "你对生活的态度已经从「我要赢」火速进化到了「随便吧」。你踩的坑太密，搞得你现在已经不知道自己到底错在哪里了。当极度的绝望催生了极致的宁静，你现在看ddl的心情就像看庭前花开花落一样祥和。面对一团糟的生活，你双手合十，无悲无喜。或许你离空禅之境只差一个光头。",
       "recommendations": [
         {
@@ -415,12 +417,13 @@
           "activity": "shuli_chongzou",
           "reason": "有些路走了才知道自己能走多远——这是树礼的招牌。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "BOSS": {
       "code": "人格4",
-      "cn": "舍栗子", 
-      "intro": "燃成舍利子了", 
+      "cn": "舍栗子",
+      "intro": "燃成舍利子了",
       "desc": "你无时无刻不在满负荷工作，你觉得人长大之后就会变成社畜就像猪大了就要变成火腿一样理所应当。接踵而来的任务和deadline反复透支着你，而你对这种虚弱疲惫的濒死感有点上瘾。熬夜后的早上你靠着咖啡因强制开机，启动动画是赫然八个大字：生命不息，工作不止。",
       "recommendations": [
         {
@@ -439,7 +442,8 @@
           "activity": "shuli_shuochangshe",
           "reason": "你的态度值得被听见——用节奏而不是用解释。"
         }
-      ]
+      ],
+      "rarity": "稀有"
     },
     "THAN-K": {
       "code": "人格5",
@@ -463,7 +467,8 @@
           "activity": "shuli_daoshiwucan",
           "reason": "跟有意思的人吃顿饭聊聊，不需要带着目的。"
         }
-      ]
+      ],
+      "rarity": "常见"
     },
     "OH-NO": {
       "code": "人格6",
@@ -487,7 +492,8 @@
           "activity": "shuli_chongzou",
           "reason": "有些路走了才知道自己能走多远——这是树礼的招牌。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "GOGO": {
       "code": "人格7",
@@ -511,13 +517,14 @@
           "activity": "shuli_chengshi",
           "reason": "走出校门，城市是最大的选修课——边走边看就好。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "SEXY": {
       "code": "人格8",
-      "cn": "都市栗人", 
-      "intro": "slay全场", 
-      "desc": "你是人群中的天然主角，校道硬是被你走出了CBD的繁荣感。别人早八头顶鸡窝赶课，你则手捧冰美式仿若上海街拍。你总是不急不徐，优雅淡定，连叹气的弧度都让人如沐春风。对你来说，哪怕DDL再紧，生活的仪式感和头发的弧度也绝不能乱。", 
+      "cn": "都市栗人",
+      "intro": "slay全场",
+      "desc": "你是人群中的天然主角，校道硬是被你走出了CBD的繁荣感。别人早八头顶鸡窝赶课，你则手捧冰美式仿若上海街拍。你总是不急不徐，优雅淡定，连叹气的弧度都让人如沐春风。对你来说，哪怕DDL再紧，生活的仪式感和头发的弧度也绝不能乱。",
       "recommendations": [
         {
           "activity": "shuli_zuqiudui",
@@ -535,7 +542,8 @@
           "activity": "shuli_chongzou",
           "reason": "有些路走了才知道自己能走多远——这是树礼的招牌。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "LOVE-R": {
       "code": "人格9",
@@ -559,7 +567,8 @@
           "activity": "shuli_shuochangshe",
           "reason": "你的态度值得被听见——用节奏而不是用解释。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "MUM": {
       "code": "人格10",
@@ -583,7 +592,8 @@
           "activity": "shuli_zuqiudui",
           "reason": "在草地上奔跑的时候，你不需要一个人扛所有。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "FAKE": {
       "code": "人格11",
@@ -607,7 +617,8 @@
           "activity": "shuli_tuanwei",
           "reason": "大型活动背后掌控节奏的人，可能就是你。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "OJBK": {
       "code": "人格12",
@@ -631,7 +642,8 @@
           "activity": "shuli_xinmeiti",
           "reason": "镜头后面你不需要被看见，但你捕捉的东西会被很多人看到。"
         }
-      ]
+      ],
+      "rarity": "常见"
     },
     "MALO": {
       "code": "人格13",
@@ -655,7 +667,8 @@
           "activity": "shuli_shenghuoquanyi",
           "reason": "照顾别人的日常是你最自然的样子，被需要的感觉很实在。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "JOKE-R": {
       "code": "人格14",
@@ -679,7 +692,8 @@
           "activity": "shuli_yumaoqiudui",
           "reason": "可以单打可以双打，你想怎么来就怎么来，没人勉强。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "WOC!": {
       "code": "人格15",
@@ -703,7 +717,8 @@
           "activity": "shuli_hanfushe",
           "reason": "有些东西穿在身上走进人群就懂了，不需要过多解释。"
         }
-      ]
+      ],
+      "rarity": "稀有"
     },
     "THIN-K": {
       "code": "人格16",
@@ -727,7 +742,8 @@
           "activity": "shuli_kehuanxiehui",
           "reason": "你的大脑需要一个更大的宇宙来承载那些奇怪念头。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "SHIT": {
       "code": "人格17",
@@ -751,7 +767,8 @@
           "activity": "shuli_xinmeiti",
           "reason": "镜头后面你不需要被看见，但你捕捉的东西会被很多人看到。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "ZZZZ": {
       "code": "人格18",
@@ -775,7 +792,8 @@
           "activity": "shuli_paiqiudui",
           "reason": "隔着一张网的默契，不远不近，刚好是你的舒适距离。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "POOR": {
       "code": "人格19",
@@ -799,7 +817,8 @@
           "activity": "shuli_bianlunshe",
           "reason": "你脑子里已经跟自己辩过好几轮了，不如拉上对手玩真的。"
         }
-      ]
+      ],
+      "rarity": "稀有"
     },
     "MONK": {
       "code": "人格20",
@@ -823,7 +842,8 @@
           "activity": "shuli_xinmeiti",
           "reason": "镜头后面你不需要被看见，但你捕捉的东西会被很多人看到。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "IMSB": {
       "code": "人格21",
@@ -847,7 +867,8 @@
           "activity": "shuli_akabelle",
           "reason": "你的声音融入群体时格外和谐，不争不抢但不可或缺。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "SOLO": {
       "code": "人格22",
@@ -871,11 +892,12 @@
           "activity": "shuli_hanfushe",
           "reason": "有些东西穿在身上走进人群就懂了，不需要过多解释。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "FUCK": {
       "code": "人格23",
-      "cn": "毛栗小五郎", 
+      "cn": "毛栗小五郎",
       "intro": "开启大语言模型快速模式",
       "desc": "你的聪明在于应答速度极快，即时生成答案的速度远超普通模型的默认模式，但你也好像永远会比真相先一步到达错误的结论。不过没关系，即使没有量变引起质变，小组讨论的氛围也被你充分烘托了。",
       "recommendations": [
@@ -895,7 +917,8 @@
           "activity": "shuli_xueshenghui",
           "reason": "统筹协调不是消耗，是你舒服的默认状态。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "DEAD": {
       "code": "人格24",
@@ -919,7 +942,8 @@
           "activity": "shuli_akabelle",
           "reason": "你的声音融入群体时格外和谐，不争不抢但不可或缺。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "IMFW": {
       "code": "人格25",
@@ -943,7 +967,8 @@
           "activity": "shuli_hanfushe",
           "reason": "有些东西穿在身上走进人群就懂了，不需要过多解释。"
         }
-      ]
+      ],
+      "rarity": "中等"
     },
     "HHHH": {
       "code": "人格26",
@@ -967,7 +992,8 @@
           "activity": "shuli_zhuanye",
           "reason": "十九个院系随便看，也许逛着逛着就找到方向了。"
         }
-      ]
+      ],
+      "rarity": "稀有"
     },
     "DRUNK": {
       "code": "人格27",
@@ -991,7 +1017,8 @@
           "activity": "shuli_xiaocaiyuan",
           "reason": "把保温杯里的换成茶，看看植物怎么慢慢地活。"
         }
-      ]
+      ],
+      "rarity": "常见"
     }
   },
   "questions": [
@@ -1001,15 +1028,15 @@
       "text": "你参加了新生营面试，然后收到了一张语气无比柔和的拒绝邮件，此时你觉得：",
       "options": [
         {
-          "label": "哦不，他们是怎么发现我是高中老鼠人的",
+          "label": "完了，我是不是面试时说错哪句话了？救命，越想越自闭",
           "value": 1
         },
         {
-          "label": "诶是我面试没回答好还是其他人答得太好了",
+          "label": "可能是我准备还不够，也可能是别人确实比我更合适吧，嗯，先认了，回头复盘一下",
           "value": 2
         },
         {
-          "label": "千里马常有而伯乐不常有",
+          "label": "成不成都很正常，又不是只这一个机会。收拾收拾，下一个更香",
           "value": 3
         }
       ]
@@ -1047,7 +1074,7 @@
           "value": 2
         },
         {
-          "label": "哈哈事儿多就练到了嘛，点击",
+          "label": "哈哈事儿多就练到了嘛，点击点击",
           "value": 3
         }
       ]
@@ -1096,15 +1123,15 @@
       "text": "你新交往的对象很粘人，ta希望你们一天三餐都一起吃，每周周末两天都一起过，每天醒来之后都待在一起，你觉得这样：",
       "options": [
         {
-          "label": "很爽了",
+          "label": "我很享受这样的相处模式，觉得充实又安心",
           "value": 1
         },
         {
-          "label": "不是很好，但是大部分时候还是顺着ta吧",
+          "label": "有点密集，但愿意为关系适当协调",
           "value": 2
         },
         {
-          "label": "不行不行我还要打游戏打球我还要卷呢",
+          "label": "更喜欢保留较多个人空间，日常安排以自我节奏为主",
           "value": 3
         }
       ]
@@ -1153,7 +1180,7 @@
       "text": "宿舍衣柜成分比例分析：爸妈买的衣服：自己买的衣服：组织文化衫",
       "options": [
         {
-          "label": "8：1：1",
+          "label": "6：3：1",
           "value": 1
         },
         {
@@ -1161,7 +1188,7 @@
           "value": 2
         },
         {
-          "label": "2：4：4",
+          "label": "2：5：3",
           "value": 3
         }
       ]
@@ -1256,7 +1283,7 @@
           "value": 2
         },
         {
-          "label": "上课下课做项目去图书馆打球打游戏，摇人第一个想到ta",
+          "label": "除了上课，不管下课做项目去图书馆、打球打游戏，摇人第一个想到ta",
           "value": 3
         }
       ]
@@ -1290,7 +1317,7 @@
           "value": 1
         },
         {
-          "label": "有点遗憾，但也不好意思说「我早就想到了」",
+          "label": "有点小遗憾，但说出来怕显得矫情，算了…",
           "value": 2
         },
         {
@@ -1332,7 +1359,7 @@
           "value": 2
         },
         {
-          "label": "选NGO，跟我长期想走的路一脉相承，钱少无所谓",
+          "label": "选NGO，跟我长期想走的路一脉相承，千金难买我愿意",
           "value": 3
         }
       ]
@@ -1343,7 +1370,7 @@
       "text": "你的对象超过十二小时没回你微信，但你在ta室友的朋友圈看到ta在峡谷奋战，你的第一反应是：",
       "options": [
         {
-          "label": "ta是不是已经不在意我了，要不要我先提分手保留体面",
+          "label": "ta是不是已经不在意我了，越想越气，还是我先提分手保留体面吧",
           "value": 1
         },
         {
@@ -1400,7 +1427,7 @@
       "text": "你在学校墙上看到一条匿名求助投稿，说家里突发变故急需捐款，你的第一反应是：",
       "options": [
         {
-          "label": "这种十有八九是骗钱的，截图发群里提醒大家别上当",
+          "label": "这种十有八九是骗钱的，我得提醒大家别上当",
           "value": 1
         },
         {
@@ -1612,102 +1639,102 @@
     "shuli_chongzou": {
       "name": "重走长征路",
       "url": "https://mp.weixin.qq.com/s/D8SB7Xh2WT8yqCpLyiKiGg",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/重走长征路.jpg"
     },
     "shuli_xueshenghui": {
       "name": "树礼学生会",
       "url": "https://mp.weixin.qq.com/s/tVfByyzKvwdEcRp_p_TXkw",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼学生会.jpg"
     },
     "shuli_bianlunshe": {
       "name": "树礼辩论社",
       "url": "https://mp.weixin.qq.com/s/OXi_e5deGdI33BPJe7OmpQ",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼辩论社.jpg"
     },
     "shuli_tuanwei": {
       "name": "树礼团委（团总支）",
       "url": "https://mp.weixin.qq.com/s/HgpK139L2dlc9AQmClbL-Q",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼团委（团总支）.jpg"
     },
     "shuli_yumaoqiudui": {
       "name": "树礼羽毛球队",
       "url": "TODO",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼羽毛球队.jpg"
     },
     "shuli_xinmeiti": {
       "name": "树礼新媒体中心",
       "url": "https://mp.weixin.qq.com/s/VHRaXttqnYptZ2CwlL_FIw",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼新媒体中心.jpg"
     },
     "shuli_kehuanxiehui": {
       "name": "树礼科幻协会",
       "url": "https://mp.weixin.qq.com/s/I7RkKahjxqbgVB-2Mo9qDg",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼科幻协会.jpg"
     },
     "shuli_pingpangdui": {
       "name": "树礼乒乓球队",
       "url": "https://mp.weixin.qq.com/s/RF5FPajdAUfA6IYktMM9dA",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼乒乓球队.jpg"
     },
     "shuli_daoshiwucan": {
       "name": "导师午餐会 / 人文下午茶",
       "url": "https://mp.weixin.qq.com/s/FyVQAmO5VaP4DMqMXUhL1Q",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/导师午餐会 人文下午茶.jpg"
     },
     "shuli_chengshi": {
       "name": "树礼城市文化漫游",
       "url": "https://mp.weixin.qq.com/s/zO64a-9iSJt9Kv2qQ2gYPg",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼城市文化漫游.jpg"
     },
     "shuli_zuqiudui": {
       "name": "树礼足球队",
       "url": "https://mp.weixin.qq.com/s/gXzxRbVLtylz07PqqUxAMA",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼足球队.jpg"
     },
     "shuli_shenghuoquanyi": {
       "name": "树礼生活权益委员会",
       "url": "https://mp.weixin.qq.com/s/7y8xDmFZrNjoCtBZVsqLJw",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼生活权益委员会.jpg"
     },
     "shuli_libao": {
       "name": "栗宝「家」油站",
       "url": "https://mp.weixin.qq.com/s/hQhPqKBa0TyONNClPty4uA",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/栗宝「家」油站.jpg"
     },
     "shuli_paiqiudui": {
       "name": "树礼排球队",
       "url": "https://mp.weixin.qq.com/s/TbU7fn29d5FROzK2yPTNug",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼排球队.jpg"
     },
     "shuli_shouyiren": {
       "name": "树礼手艺人活动",
       "url": "https://mp.weixin.qq.com/s/unLy0PzoqFwz4vp2jPZ45A",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼手艺人活动.jpg"
     },
     "shuli_yingshi": {
       "name": "树礼影视文化漫游",
       "url": "https://mp.weixin.qq.com/s/u4LFMY2Kn676O07UtViJcg",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼影视文化漫游.jpg"
     },
     "shuli_xiaocaiyuan": {
       "name": "树礼小菜园",
       "url": "https://mp.weixin.qq.com/s/-72unMccelThMlaiOnaAhw",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼小菜园.jpg"
     },
     "shuli_akabelle": {
       "name": "树礼阿卡贝拉社",
       "url": "https://mp.weixin.qq.com/s/5txjERgg23Rek2Uuvs4fqg",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼阿卡贝拉社.jpg"
     },
     "shuli_zhuanye": {
       "name": "树礼专业集市",
       "url": "https://mp.weixin.qq.com/s/o3q3yAZl8GtyFe0q-8gW8Q",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼专业集市.jpg"
     },
     "shuli_boguan": {
       "name": "树礼博观沙龙",
       "url": "https://mp.weixin.qq.com/s/_XyDI0p3hEFYDRk4gH3fYQ",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼博观沙龙.jpg"
     }
   }
 }
