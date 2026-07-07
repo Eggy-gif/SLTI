@@ -904,13 +904,13 @@ button:disabled {
     #intro {
       width: min(84vw, 680px);
       aspect-ratio: 4 / 5;
-      margin: 0 auto;
+      margin: 100px auto;
     }
 
     #intro::before {
       background:
         linear-gradient(rgba(255, 248, 235, 0.05), rgba(255, 255, 255, 0.08)),
-        url("../reference/背景1.jpeg") center 250px / cover no-repeat;
+        url("../reference/背景1.jpeg") center center / cover no-repeat;
     }
 
     #intro .hero {
