@@ -902,9 +902,9 @@ button:disabled {
 
   @media (max-width: 780px) {
     #intro {
-      width: min(84vw, 680px);
-      aspect-ratio: 4 / 5;
-      margin: 100px auto 0;
+      width: min(84vw, 700px);
+      aspect-ratio: 6 / 7;
+      margin: 180px auto 0;
     }
 
     #intro::before {
