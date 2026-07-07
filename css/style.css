@@ -904,7 +904,7 @@ button:disabled {
     #intro {
       width: min(84vw, 680px);
       aspect-ratio: 4 / 5;
-      margin: 100px auto;
+      margin: 100px auto 0;
     }
 
     #intro::before {
