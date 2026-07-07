@@ -31,7 +31,38 @@
 /* ================================
    首页 #intro
    ================================ */
+/* 首页整页背景图 */
+  #intro {
+    position: relative;
+    min-height: calc(100vh - 60px);
+    overflow: hidden;
+    border-radius: 30px;
+  }
 
+  #intro::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(rgba(255, 248, 235, 0.18), rgba(255, 248, 235, 0.28)),
+      url("../reference/背景图.png") center center / cover no-repeat;
+    z-index: 0;
+  }
+
+  /* 让首页内容在背景上层 */
+  #intro > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* 只保留“SLTI测试”框作为浮层，降低透明度 */
+  #intro .hero {
+    margin: 48px auto;
+    max-width: 980px;
+    background: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
 /* ================================
    测试页 #test
    - 进度条
@@ -71,8 +102,8 @@ body {
     -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
     "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   background:
-    radial-gradient(circle at top left, #fffdf5 0, #fbfaf8 36%, #f5f4f2 100%);
-  color: var(--text);
+    linear-gradient(rgba(255, 250, 245, 0.45), rgba(255, 250, 245, 0.45)),
+    url("../reference/背景图.png") center center / cover fixed no-repeat;
   font-size: 24px;
   min-height: 100vh;
 }
