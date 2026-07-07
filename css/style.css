@@ -32,13 +32,14 @@
    首页 #intro
    ================================ */
 /* 首页整页背景图 */
-  #intro {
+   #intro {
     position: relative;
-    min-height: calc(100vh - 60px);
+    width: min(85vw, 1080px);
+    aspect-ratio: 1 / 1;
+    margin: 0 auto;
     overflow: hidden;
     border-radius: 30px;
   }
-
   #intro::before {
     content: "";
     position: absolute;
@@ -57,8 +58,8 @@
 
   /* 只保留“SLTI测试”框作为浮层，降低透明度 */
   #intro .hero {
-     margin: 24vh auto 0;
-    max-width: 980px;
+     margin: 30vh auto 0;
+    max-width: 700px;
     background: rgba(255, 255, 255, 0.16);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -67,15 +68,15 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 320px;
+    min-height: 280px;
   }
   #intro .hero-title {
     margin: 0 0 24px;
-     color: #FFA500;
+     color: #e98502;
     text-shadow:
       0 1px 2px rgba(0, 0, 0, 0.5),
-      0 0 4px #D84A4A;
-    font-size: clamp(36px, 5vw, 64px);
+      0 0 4px #940d0d;
+    font-size: clamp(32px, 5vw, 54px);
     font-weight: 700;
     line-height: 1.2;
     white-space: nowrap;
@@ -125,7 +126,7 @@ body {
     "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   background:
     linear-gradient(rgba(255, 250, 245, 0), rgba(255, 250, 245, 0)),
-    url("../reference/12.jpg") center center / cover fixed no-repeat;
+    url("../reference/1.jpg") center center / cover fixed no-repeat;
   font-size: 24px;
   min-height: 100vh;
 }
@@ -898,3 +899,17 @@ button:disabled {
     font-size: 22px;
   }
 }
+
+ @media (max-width: 780px) {
+    #intro {
+      width: min(92vw, 560px);   /* 可调：控制手机端方形大小 */
+      aspect-ratio: 4 / 5;       /* 可调：保持方形；以后可改成 4 / 5 等 */
+      margin: 0 auto;
+    }
+
+    #intro::before {
+      background:
+        linear-gradient(rgba(255, 248, 235, 0.05), rgba(255, 255, 255, 0.08)),
+        url("../reference/背景1.jpeg") center 40% / cover no-repeat;
+    }
+  }
