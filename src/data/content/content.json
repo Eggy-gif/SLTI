@@ -211,32 +211,32 @@
   "drunkTriggerQuestionId": "drink_gate_q2",
   "imagePaths": {
     "人格1": "reference/images/万事顺栗.jpg",
-    "人格2": "reference/image.png",
+    "人格2": "reference/images/吉姆栗.jpg",
     "人格3": "reference/images/栗地成佛.jpg",
     "人格4": "reference/images/舍栗子.jpg",
-    "人格5": "reference/image.png",
-    "人格6": "reference/image.png",
-    "人格7": "reference/image.png",
+    "人格5": "reference/images/提栗昂.jpg",
+    "人格6": "reference/images/风声鹤栗.jpg",
+    "人格7": "reference/images/糖炒栗子.jpg",
     "人格8": "reference/images/都市栗人.jpg",
-    "人格9": "reference/image.png",
+    "人格9": "reference/images/落花人独栗.jpg",
     "人格10": "reference/images/栗争上游.jpg",
-    "人格11": "reference/image.png",
-    "人格12": "reference/image.png",
-    "人格13": "reference/image.png",
+    "人格11": "reference/images/马基雅维栗.jpg",
+    "人格12": "reference/images/伯努栗.jpg",
+    "人格13": "reference/images/猞栗.jpg",
     "人格14": "reference/images/战战栗栗.jpg",
-    "人格15": "reference/image.png",
-    "人格16": "reference/image.png",
+    "人格15": "reference/images/高栗士.png",
+    "人格16": "reference/images/伽栗略.png",
     "人格17": "reference/images/晴天霹栗.jpg",
     "人格18": "reference/images/物栗维艰.jpg",
     "人格19": "reference/images/不寒而栗.jpg",
-    "人格20": "reference/image.png",
-    "人格21": "reference/image.png",
-    "人格22": "reference/image.png",
-    "人格23": "reference/image.png",
+    "人格20": "reference/images/邓布栗多.png",
+    "人格21": "reference/images/达栗.png",
+    "人格22": "reference/images/严栗栗.png",
+    "人格23": "reference/images/毛栗小五郎.png",
     "人格24": "reference/images/奴栗.jpg",
     "人格25": "reference/images/薄栗多销.jpg",
     "人格26": "reference/images/沧海一栗.jpg",
-    "人格27": "reference/image.png"
+    "人格27": "reference/images/牡栗.png"
   },
   "normalTypes": [
     {
@@ -1639,102 +1639,102 @@
     "shuli_chongzou": {
       "name": "重走长征路",
       "url": "https://mp.weixin.qq.com/s/D8SB7Xh2WT8yqCpLyiKiGg",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/重走长征路.jpg"
     },
     "shuli_xueshenghui": {
       "name": "树礼学生会",
       "url": "https://mp.weixin.qq.com/s/tVfByyzKvwdEcRp_p_TXkw",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼学生会.jpg"
     },
     "shuli_bianlunshe": {
       "name": "树礼辩论社",
       "url": "https://mp.weixin.qq.com/s/OXi_e5deGdI33BPJe7OmpQ",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼辩论社.jpg"
     },
     "shuli_tuanwei": {
       "name": "树礼团委（团总支）",
       "url": "https://mp.weixin.qq.com/s/HgpK139L2dlc9AQmClbL-Q",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼团委（团总支）.jpg"
     },
     "shuli_yumaoqiudui": {
       "name": "树礼羽毛球队",
       "url": "TODO",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼羽毛球队.jpg"
     },
     "shuli_xinmeiti": {
       "name": "树礼新媒体中心",
       "url": "https://mp.weixin.qq.com/s/VHRaXttqnYptZ2CwlL_FIw",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼新媒体中心.jpg"
     },
     "shuli_kehuanxiehui": {
       "name": "树礼科幻协会",
       "url": "https://mp.weixin.qq.com/s/I7RkKahjxqbgVB-2Mo9qDg",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼科幻协会.png"
     },
     "shuli_pingpangdui": {
       "name": "树礼乒乓球队",
       "url": "https://mp.weixin.qq.com/s/RF5FPajdAUfA6IYktMM9dA",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼乒乓球队.png"
     },
     "shuli_daoshiwucan": {
       "name": "导师午餐会 / 人文下午茶",
       "url": "https://mp.weixin.qq.com/s/FyVQAmO5VaP4DMqMXUhL1Q",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/导师午餐会 人文下午茶.jpg"
     },
     "shuli_chengshi": {
       "name": "树礼城市文化漫游",
       "url": "https://mp.weixin.qq.com/s/zO64a-9iSJt9Kv2qQ2gYPg",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼城市文化漫游.jpg"
     },
     "shuli_zuqiudui": {
       "name": "树礼足球队",
       "url": "https://mp.weixin.qq.com/s/gXzxRbVLtylz07PqqUxAMA",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼足球队.jpg"
     },
     "shuli_shenghuoquanyi": {
       "name": "树礼生活权益委员会",
       "url": "https://mp.weixin.qq.com/s/7y8xDmFZrNjoCtBZVsqLJw",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼生活权益委员会.jpg"
     },
     "shuli_libao": {
       "name": "栗宝「家」油站",
       "url": "https://mp.weixin.qq.com/s/hQhPqKBa0TyONNClPty4uA",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/栗宝「家」油站.jpg"
     },
     "shuli_paiqiudui": {
       "name": "树礼排球队",
       "url": "https://mp.weixin.qq.com/s/TbU7fn29d5FROzK2yPTNug",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼排球队.jpg"
     },
     "shuli_shouyiren": {
       "name": "树礼手艺人活动",
       "url": "https://mp.weixin.qq.com/s/unLy0PzoqFwz4vp2jPZ45A",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼手艺人活动.jpg"
     },
     "shuli_yingshi": {
       "name": "树礼影视文化漫游",
       "url": "https://mp.weixin.qq.com/s/u4LFMY2Kn676O07UtViJcg",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼影视文化漫游.jpg"
     },
     "shuli_xiaocaiyuan": {
       "name": "树礼小菜园",
       "url": "https://mp.weixin.qq.com/s/-72unMccelThMlaiOnaAhw",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼小菜园.jpg"
     },
     "shuli_akabelle": {
       "name": "树礼阿卡贝拉社",
       "url": "https://mp.weixin.qq.com/s/5txjERgg23Rek2Uuvs4fqg",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼阿卡贝拉社.jpg"
     },
     "shuli_zhuanye": {
       "name": "树礼专业集市",
       "url": "https://mp.weixin.qq.com/s/o3q3yAZl8GtyFe0q-8gW8Q",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼专业集市.jpg"
     },
     "shuli_boguan": {
       "name": "树礼博观沙龙",
       "url": "https://mp.weixin.qq.com/s/_XyDI0p3hEFYDRk4gH3fYQ",
-      "image": "TODO"
+      "image": "reference/StudentOrganizationPhoto/树礼博观沙龙.jpg"
     }
   }
 }
