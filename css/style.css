@@ -34,7 +34,7 @@
 /* 首页整页背景图 */
    #intro {
     position: relative;
-    width: min(70vw, 800px);
+    width: min(70vw, 840px);
     aspect-ratio: 1 / 1;
     margin: 0 auto;
     overflow: hidden;
@@ -902,7 +902,7 @@ button:disabled {
 
  @media (max-width: 780px) {
     #intro {
-      width: min(60vw, 400px);   /* 可调：控制手机端方形大小 */
+      width: min(66vw, 540px);   /* 可调：控制手机端方形大小 */
       aspect-ratio: 4 / 5;       /* 可调：保持方形；以后可改成 4 / 5 等 */
       margin: 0 auto;
     }
