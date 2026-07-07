@@ -910,13 +910,13 @@ button:disabled {
     #intro::before {
       background:
         linear-gradient(rgba(255, 248, 235, 0.05), rgba(255, 255, 255, 0.08)),
-        url("../reference/背景1.jpeg") center 70% / cover no-repeat;
+        url("../reference/背景1.jpeg") center 90% / cover no-repeat;
     }
 
     #intro .hero {
-      margin: 24vh auto 0;
+      margin: 28vh auto 0;
       max-width: 88%;
-      min-height: 220px;
+      min-height: 160px;
       padding: 18px;
     }
 
