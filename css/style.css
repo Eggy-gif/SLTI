@@ -902,7 +902,7 @@ button:disabled {
 
   @media (max-width: 780px) {
     #intro {
-      width: min(66vw, 540px);
+      width: min(84vw, 680px);
       aspect-ratio: 4 / 5;
       margin: 0 auto;
     }
@@ -910,11 +910,11 @@ button:disabled {
     #intro::before {
       background:
         linear-gradient(rgba(255, 248, 235, 0.05), rgba(255, 255, 255, 0.08)),
-        url("../reference/背景1.jpeg") center center / cover no-repeat;
+        url("../reference/背景1.jpeg") center 70% / cover no-repeat;
     }
 
     #intro .hero {
-      margin: 12vh auto 0;
+      margin: 24vh auto 0;
       max-width: 88%;
       min-height: 220px;
       padding: 18px;
