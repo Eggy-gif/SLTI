@@ -556,6 +556,83 @@ button:disabled {
   line-height: 1.7;
 }
 
+.rarity-badge {
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 12px;
+  padding: 8px 16px;
+}
+
+.rarity-common {
+  background: #fff5e0;
+  border: 1px solid #fabe00;
+  color: #5c4212;
+}
+
+.rarity-moderate {
+  background: var(--soft);
+  border: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.rarity-rare {
+  background: #fdf2f2;
+  border: 1px solid #e8b4b4;
+  color: #8b3a3a;
+}
+
+.nearby-box {
+  background: linear-gradient(180deg, #ffffff, #fbfaf8);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.nearby-box h3 {
+  margin-bottom: 16px;
+}
+
+.nearby-list {
+  display: grid;
+  gap: 14px;
+}
+
+.nearby-item {
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px;
+}
+
+.nearby-name {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.nearby-sim {
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.dim-bar {
+  background: #ede8df;
+  border-radius: 999px;
+  height: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.dim-bar-fill {
+  border-radius: inherit;
+  height: 100%;
+  transition: width 0.4s ease;
+}
+
 .dim-list {
   display: grid;
   gap: 18px;
